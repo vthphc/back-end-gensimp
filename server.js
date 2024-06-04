@@ -19,6 +19,7 @@ app.use('/character', require('./routes/character'));
 app.use('/element', require('./routes/element'));
 app.use('/weapon', require('./routes/weapon'));
 app.use('/rarity', require('./routes/rarity'));
+app.use('/arm', require('./routes/arm'));
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
